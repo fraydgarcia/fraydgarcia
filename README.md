@@ -92,18 +92,19 @@ class CybersecurityStudent:
 
 ## 🏆 Proyectos Destacados
 
-**Hack The Box — Práctica Ofensiva Continua**
+**[Hack The Box — Práctica Ofensiva Continua](https://github.com/fraydgarcia/htb-writeups)**
 `Nmap · Burp Suite · Metasploit · BloodHound · CrackMapExec`
 - Rango **Master**, nivel **67** — 51 máquinas resueltas (Easy/Medium).
 - Explotación web (SQLi, LFI, SSRF, XSS, IDOR), escalada de privilegios Linux (SUID, cron, sudo misconfigs, kernel exploits) y cadenas de ataque AD (Kerberoasting, AS-REP Roasting, Pass-the-Hash, abuso de ACLs).
 - Metodología PTES + MITRE ATT&CK en el ciclo completo: recon → explotación → post-explotación → reporte.
+- Writeups publicados con formato de informe, sin auto-exploits ni flags. Seguimiento en [fraydgarcia.github.io](https://fraydgarcia.github.io/).
 
-**Sistema de Ciberinteligencia mediante Honeypots — TFG**
+**[Sistema de Ciberinteligencia mediante Honeypots — TFG](https://github.com/fraydgarcia/tfg-honeypot-turismo)**
 `T-Pot · OCI · Docker · ELK Stack · Kibana`
 - Infraestructura de honeypots distribuida en Oracle Cloud con T-Pot sobre Docker.
 - Generación de IoCs mapeados a TTPs MITRE ATT&CK y dashboards Kibana en tiempo real.
 
-**Scripts de Reconocimiento Automatizado**
+**[Scripts de Reconocimiento Automatizado](https://github.com/fraydgarcia/nmapparser)**
 `Python · Subfinder · WhatWeb · Shodan API · Nmap`
 - Scripts modulares para enumeración de subdominios, fingerprinting y correlación de resultados Nmap.
 - Integración con Shodan API para flujos de bug bounty y CTFs.
@@ -114,11 +115,11 @@ class CybersecurityStudent:
 
 <div align="center">
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nm3s1s&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F700&icon_color=00F700&text_color=FFFFFF)](https://github.com/nm3s1s)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fraydgarcia&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F700&icon_color=00F700&text_color=FFFFFF)](https://github.com/fraydgarcia)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=nm3s1s&theme=radical&hide_border=true&background=0D1117&stroke=00F700&ring=00F700&fire=FF6D00&currStreakLabel=00F700)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=fraydgarcia&theme=radical&hide_border=true&background=0D1117&stroke=00F700&ring=00F700&fire=FF6D00&currStreakLabel=00F700)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nm3s1s&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F700&text_color=FFFFFF&langs_count=8)](https://github.com/nm3s1s)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fraydgarcia&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F700&text_color=FFFFFF&langs_count=8)](https://github.com/fraydgarcia)
 
 </div>
 
@@ -140,6 +141,7 @@ class CybersecurityStudent:
 |---|---|
 | eJPT – eLearnSecurity Junior Penetration Tester | En preparación |
 | CPTS – Certified Penetration Testing Specialist (HTB) | En preparación |
+| AWS Certified Cloud Practitioner (CLF-C02) | En preparación |
 | Cisco – Junior Cybersecurity Analyst | 2025 |
 | Cisco – Cyber Threat Management | 2025 |
 | Cisco – Network Defense & Endpoint Security | 2024 |
@@ -155,9 +157,10 @@ class CybersecurityStudent:
 
 <div align="center">
 
+[![Web](https://img.shields.io/badge/Web-0D1117?style=for-the-badge&logo=github&logoColor=9FEF00)](https://fraydgarcia.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/fraineltomas)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nm3s1s)
-[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=white)](https://app.hackthebox.com/profile/nm3s1ss)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/fraydgarcia)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=white)](https://app.hackthebox.com/users/2163518)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fraydgarcia@proton.me)
 
 </div>
