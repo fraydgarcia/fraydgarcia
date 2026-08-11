@@ -71,19 +71,25 @@ Gestión de Active Directory —usuarios, GPO, identidades— e identificación 
 **Técnico Superior en ASIR** · CIFP Zonzamas · Sep 2024 – Jun 2026
 Nota media 9,80. Mención honorífica en Seguridad y Alta Disponibilidad.
 
+### Certificaciones
+
 | Certificación | Estado |
 |---|---|
 | AWS Certified Cloud Practitioner (CLF-C02) | En preparación |
 | CDSA — Certified Defensive Security Analyst (HTB) | En preparación |
 | CPTS — Certified Penetration Testing Specialist (HTB) | En pausa |
-| Cisco — Junior Cybersecurity Analyst | 2025 |
-| Cisco — Cyber Threat Management | 2025 |
-| Cisco — Network Defense & Endpoint Security | 2024 |
-| Cisco — Introduction to Cybersecurity & Networking | 2024 |
-| Fortinet — Certified Fundamentals in Cybersecurity | 2025 |
-| IBM — Cybersecurity Fundamentals | 2025 |
-| IBM — Artificial Intelligence Fundamentals | 2025 |
-| AWS — Introduction to Virtual Private Cloud (VPC) | 2025 |
+
+### Cursos y credenciales
+
+| Curso | Emisor | Año |
+|---|---|---|
+| Junior Cybersecurity Analyst | Cisco Networking Academy | 2025 |
+| Cyber Threat Management | Cisco Networking Academy | 2025 |
+| Network Defense · Endpoint Security | Cisco Networking Academy | 2024 |
+| Introduction to Cybersecurity · Networking Basics | Cisco Networking Academy | 2024 |
+| Certified Fundamentals in Cybersecurity | Fortinet | 2025 |
+| Cybersecurity Fundamentals | IBM | 2025 |
+| Introduction to Amazon VPC (laboratorio) | AWS | 2025 |
 
 ---
 
