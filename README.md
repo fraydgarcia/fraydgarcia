@@ -1,92 +1,63 @@
 # Fray García
 
-**Cloud security y blue team, desde una base ofensiva.** Administrador de sistemas en Lanzarote.
+> Sistemas · AWS · Cloud Security
 
-Vengo del lado ofensivo — Active Directory, explotación web, escalada — y ahora trabajo el defensivo y la nube. No es un cambio de tema: saber cómo se ejecuta un ataque es lo que permite decidir qué merece la pena detectar. La escalada de privilegios en IAM de AWS y el abuso de ACL en Active Directory son el mismo problema, un grafo de permisos que nadie ha mirado entero, sobre distinto sustrato.
+Soy administrador de sistemas en Lanzarote. Este perfil es mi cuaderno público:
+un sitio para dejar por escrito lo que estoy construyendo, las decisiones que me
+han hecho pensar y las preguntas que todavía no sé responder.
 
-Escribo lo que investigo en **[fraydgarcia.github.io](https://fraydgarcia.github.io/)**.
+Vengo de Linux, Windows, redes y Active Directory. De operar cosas que no se
+arreglan con un diagrama bonito, sino sabiendo qué depende de qué, dónde mirar
+cuando algo falla y qué cambio merece una vuelta atrás. Ahora llevo esa forma de
+trabajar a AWS: IAM, VPC, logging y hardening.
+
+No me interesa que una infraestructura solo funcione cuando todo va bien. Me
+interesa que sea comprensible, operable y defendible cuando deja de ir bien.
+
+---
+
+## Ahora
+
+Estoy preparando **AWS Solutions Architect – Associate (SAA-C03)**. Quiero una
+base sólida de arquitectura antes de dar el siguiente paso hacia **AWS Security
+– Specialty (SCS-C03)**. Cada bloque de estudio acaba en algo que pueda tocar:
+un laboratorio, una nota o una decisión de diseño explicada con mis palabras.
+
+En paralelo, trabajo laboratorios sobre identidad en AWS: credenciales
+temporales, trust policies, permisos mínimos, IMDSv2 y la trazabilidad que deja
+una acción en CloudTrail.
 
 ---
 
 ## Investigación
 
-Análisis propios, con formato de informe. Cada uno lleva una sección de limitaciones que dice qué **no** demuestra el trabajo.
+Escribo análisis técnicos con sus límites a la vista: qué demuestra el trabajo
+y qué no. No quiero convertir una prueba puntual en una conclusión más grande
+de lo que es.
 
-**[La passkey sincronizada no vive en el TPM](https://fraydgarcia.github.io/research/la-passkey-sincronizada-no-vive-en-el-tpm/)**
-Tres reglas Sigma para detectar el robo de passkeys de Chrome descrito por Unit 42, y la telemetría que hay que habilitar antes para que lleguen a disparar. Dos de los tres ataques no dejan rastro con una instalación de Sysmon por defecto.
-
-**[El plazo de CISA pasó de 21 días a 3](https://fraydgarcia.github.io/research/el-plazo-de-cisa-paso-de-21-dias-a-3/)**
-El catálogo KEV completo, 1.660 entradas, mes a mes: cómo un estándar estable durante cuatro años se desplomó en 2026, y qué implica para un equipo pequeño.
-
-**[Un 5.3 que también es un 9.8](https://fraydgarcia.github.io/research/cve-2026-56164-un-53-que-tambien-es-un-98/)**
-Por qué la puntuación base del CVSS no dice lo peligrosa que es una vulnerabilidad en *tu* red, con CVE-2026-56164 como caso.
-
-**[Qué recibe realmente una PYME turística expuesta a Internet](https://fraydgarcia.github.io/research/que-recibe-realmente-una-pyme-turistica/)**
-Casi dos meses de honeypot multiservicio midiendo el ruido de fondo de Internet, mapeado a MITRE ATT&CK.
+- **[La passkey sincronizada no vive en el TPM](https://fraydgarcia.github.io/research/la-passkey-sincronizada-no-vive-en-el-tpm/)** — Telemetría y detecciones para entender qué deja —y qué no deja— el robo de passkeys sincronizadas.
+- **[El plazo de CISA pasó de 21 días a 3](https://fraydgarcia.github.io/research/el-plazo-de-cisa-paso-de-21-dias-a-3/)** — Qué cambió en el catálogo KEV y qué supone para un equipo pequeño que tiene que priorizar.
+- **[Un 5.3 que también es un 9.8](https://fraydgarcia.github.io/research/cve-2026-56164-un-53-que-tambien-es-un-98/)** — Por qué la puntuación base no sustituye el contexto de una red real.
+- **[Qué recibe realmente una PYME turística expuesta a Internet](https://fraydgarcia.github.io/research/que-recibe-realmente-una-pyme-turistica/)** — Observación de ruido de Internet con un honeypot y lectura de la telemetría que deja.
 
 ---
 
-## Trabajo
+## Proyectos
 
-| Proyecto | Qué es |
+| Proyecto | Por qué existe |
 |---|---|
-| **[tfg-honeypot-turismo](https://github.com/fraydgarcia/tfg-honeypot-turismo)** | Honeypot instrumentado para que cada interacción dejara señal: Cowrie para sesiones y comandos, Suricata para red, Elastic para correlación. Proyecto de fin de ciclo, cerrado. |
-| **[htb-writeups](https://github.com/fraydgarcia/htb-writeups)** | Writeups de Hack The Box con formato de informe: superficie, acceso, escalada y evidencia, explicando qué señal justifica cada movimiento. Sin auto-exploits y sin flags. |
-| **[nmapparser](https://github.com/fraydgarcia/nmapparser)** | Utilidad en Python para parsear y correlacionar resultados de Nmap a lo largo de un reconocimiento extenso. |
+| **[tfg-honeypot-turismo](https://github.com/fraydgarcia/tfg-honeypot-turismo)** | Mi proyecto de fin de ciclo: T-Pot, Cowrie, Suricata y Elastic para convertir interacciones en señal y traducirlas a medidas aplicables. |
+| **[nmapparser](https://github.com/fraydgarcia/nmapparser)** | Una pequeña utilidad en Python para no perder contexto entre un inventario de red y la siguiente comprobación. |
 
 ---
 
-## Ahora mismo
+## Hacia dónde voy
 
-Preparando **AWS Certified Cloud Practitioner** y el path **CDSA** de Hack The Box — manejo de incidentes, SIEM, caza de amenazas y forense. En paralelo, escribiendo detecciones sobre telemetría de Windows y Sysmon, y trabajando rutas de escalada en IAM sobre cuenta propia de AWS.
-
-El CPTS queda en pausa mientras dure este foco.
-
----
-
-## Herramientas
-
-| Área | |
-|---|---|
-| Detección y análisis | Sigma · YARA · Sysmon · Windows Event Logs · Splunk · Elastic · Suricata · Wireshark |
-| Cloud | AWS (IAM, VPC, S3, CloudTrail) · Oracle Cloud · Docker |
-| Ofensiva | Nmap · Burp Suite · Metasploit · BloodHound · NetExec · ffuf |
-| Sistemas | Windows Server · Linux · Active Directory · Zabbix · Grafana |
-| Lenguajes | Python · Bash · PowerShell |
+Quiero seguir creciendo en Cloud Security, operaciones de seguridad y sistemas
+e infraestructura. Busco aprender a diseñar servicios que no solo estén bien
+montados, sino que tengan límites claros, registros útiles y alguien capaz de
+explicar por qué funcionan así.
 
 ---
 
-## Experiencia
-
-**Administrador de Sistemas de TI** · ROSA GROUP · Feb 2026 – Actualidad · Lanzarote
-Infraestructura IT de un grupo hotelero. Despliegue de monitorización Zabbix vía Docker sobre más de 50 endpoints y hardening de Windows y Linux siguiendo guías CIS.
-
-**Administrador de Sistemas de TI (formación dual)** · Gobierno de Canarias · Ene 2025 – Mar 2025 · Lanzarote
-Gestión de Active Directory —usuarios, GPO, identidades— e identificación de configuraciones débiles desde perspectiva ofensiva. Automatización con Bash y virtualización QEMU/KVM.
-
----
-
-## Formación
-
-**Técnico Superior en ASIR** · CIFP Zonzamas · Sep 2024 – Jun 2026
-Nota media 9,80. Mención honorífica en Seguridad y Alta Disponibilidad.
-
-| Certificación | Estado |
-|---|---|
-| AWS Certified Cloud Practitioner (CLF-C02) | En preparación |
-| CDSA — Certified Defensive Security Analyst (HTB) | En preparación |
-| CPTS — Certified Penetration Testing Specialist (HTB) | En pausa |
-| Cisco — Junior Cybersecurity Analyst | 2025 |
-| Cisco — Cyber Threat Management | 2025 |
-| Cisco — Network Defense & Endpoint Security | 2024 |
-| Cisco — Introduction to Cybersecurity & Networking | 2024 |
-| Fortinet — Certified Fundamentals in Cybersecurity | 2025 |
-| IBM — Cybersecurity Fundamentals | 2025 |
-| IBM — Artificial Intelligence Fundamentals | 2025 |
-| AWS — Introduction to Virtual Private Cloud (VPC) | 2025 |
-
----
-
-## Contacto
-
-[Web](https://fraydgarcia.github.io/) · [LinkedIn](https://linkedin.com/in/fraineltomas) · [Hack The Box](https://app.hackthebox.com/users/2163518) · [Correo](mailto:fraydgarcia@proton.me)
+[Web](https://fraydgarcia.github.io/) · [LinkedIn](https://linkedin.com/in/fraineltomas) · [Correo](mailto:fraydgarcia@proton.me)
